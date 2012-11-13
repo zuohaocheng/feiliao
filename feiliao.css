@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+table {
+    border-spacing: 0;
+    margin: 0 auto;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead tr:first-child th {
+    border-bottom: silver 1px solid;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: rgba(173, 216, 230, 0.51);
+}
+
+.warn {
+    color: red;
+}
+
+.content {
+    width: 60%;
+}
+
+.pages {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    text-align:center;
+}
+
+.pagenumber {
+    font-weight: bold;
+}
+
+.minor-list ul {
+    display:inline;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    vertical-align: middle !ie;
+}
+
+.minor-list li {
+    display:inline-block;
+    line-height: 1.35em;
+    padding: 0 .5em;
+    /* border-left: 1px solid #AAA; */
+    margin: 0.3em 0;
+    zoom: 1;
+    display:inline !ie;
+}
+
+.minor-list.list-seperator li, li.list-seperator {
+    border-left: 1px solid #AAA;
+}
+
+.minor-list li:first-child {
+    padding-left: .4em;
+    border-left: none;
+}
+
+img {
+    max-height: 408px;
+    max-width: 408px;
+}
+
+#settings {
+    position: absolute;
+    right: 0.2em;
+}

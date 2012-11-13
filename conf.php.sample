@@ -1,0 +1,14 @@
+<?php
+
+$users = ['zuohaocheng' => ['pass' => '123456',
+			    'func' => function() {
+      error_log('loged in as zuohaocheng');
+    }
+			    ]
+	  ];
+
+$addr = ['13800138000' => 'ZHANG, San',
+	 '13800138001' => 'YAMADA, Taro',
+	 ];
+
+	  
